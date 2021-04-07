@@ -1,2 +1,2 @@
-# learn-rails
-learn rails project 1
+# Learning Rails
+Learning Rails with a tutorial from [learn-rails.com](http://learn-rails.com/).
