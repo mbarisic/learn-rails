@@ -25,6 +25,7 @@ gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'rails_layout'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'jquery-rails', '~> 4.4'
+gem 'high_voltage', '~> 0.9.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
