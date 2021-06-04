@@ -16,4 +16,21 @@
     <br/>
     <%= form.submit 'Submit', class: 'submit' %>
   <% end %>
+
+  <table>
+    <tr>
+      <th>index</th>
+      <th>name</th>
+      <th>email</th>
+      <th>message</th>
+    </tr>
+    <% @allcontact.each do |contact|%>
+    <tr>
+      <td><%= @contact.id %></td>
+      <td><%= @contact.name %></td>
+      <td><%= @contact.email %></td>
+      <td><%= @contact.content %></td>
+    </tr>
+    <% end %>
+  </table>
 </div>

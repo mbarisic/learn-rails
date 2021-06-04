@@ -5,6 +5,10 @@ class ContactsController < ApplicationController
     @contact = Contact.new
   end
 
+  def index
+    @allcontact = Contact.all
+  end
+
   def create
     @contact = Contact.new(secure_params)
     if @contact.valid?
