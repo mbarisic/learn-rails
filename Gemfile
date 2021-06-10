@@ -24,9 +24,11 @@ gem 'jbuilder', '~> 2.7'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'rails_layout'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+gem 'gibbon', '~> 2.2', '>= 2.2.3'
 gem 'jquery-rails', '~> 4.4'
 gem 'high_voltage', '~> 0.9.0'
 gem 'sendgrid-ruby'
+
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -58,5 +60,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-
-gem 'gibbon', '~> 2.2', '>= 2.2.3'
+group :production do
+  gem 'pg'
+end
